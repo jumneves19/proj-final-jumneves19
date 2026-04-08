@@ -21,3 +21,9 @@ def cadastrar_biblioteca():
 
 if __name__ == "__main__":
     cadastrar_biblioteca()
+    
+// Melhoria: Adição de log de auditoria para registar a última alteração
+public void LogAlteracao() {
+    string dataHora = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
+    Console.WriteLine("Arquivo atualizado com sucesso em: " + dataHora);
+}
